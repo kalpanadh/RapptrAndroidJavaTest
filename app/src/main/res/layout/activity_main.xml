@@ -11,8 +11,10 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="@dimen/activity_margin"
         android:layout_marginRight="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/margin_214"
+        android:layout_marginBottom="@dimen/margin_213"
         android:gravity="center"
-        android:layout_centerInParent="true"
+        android:layout_centerInParent="false"
         android:orientation="vertical">
 
         <Button

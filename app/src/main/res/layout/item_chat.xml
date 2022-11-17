@@ -27,7 +27,7 @@
         android:hint="Drew"
         android:text="Drew"
         android:textColor="@color/chat_text"
-        android:textSize="@dimen/person_name_txtsize" />
+        android:textSize="@dimen/person_name_txt_size" />
 
     <TextView
         android:id="@+id/messageTextView"

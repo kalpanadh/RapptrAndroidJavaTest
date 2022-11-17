@@ -12,7 +12,7 @@
         android:scrollbars="vertical"
         tools:listitem="@layout/item_chat"
         android:layout_marginLeft="@dimen/margin_16"
-        android:layout_marginRight="@dimen/margin_16"
+        android:layout_marginRight="@dimen/margin_21"
         android:layout_marginTop="@dimen/margin_16"/>
 
 </RelativeLayout>
