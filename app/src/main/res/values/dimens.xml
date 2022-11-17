@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_margin">30dp</dimen>
+    <dimen name="margin_21">21dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="person_name_txtsize">13sp</dimen>
+    <dimen name="chat_text_size">15sp</dimen>
+    <dimen name="btn_height">55dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+
+</resources>

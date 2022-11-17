@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_16"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true"
+    tools:background="@color/background"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_avatar_placeholder"
+        tools:ignore="RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/personNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_7"
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Drew"
+        android:text="Drew"
+        android:textColor="@color/chat_text"
+        android:textSize="@dimen/person_name_txtsize" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/personNameTextView"
+        android:layout_marginLeft="@dimen/margin_7"
+        android:layout_marginTop="@dimen/margin_4"
+        android:layout_toRightOf="@+id/avatarImageView"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:background="@drawable/round_button"
+        android:fontFamily="sans-serif"
+        android:padding="@dimen/padding_8"
+        android:textColor="@color/chat_text"
+        android:textSize="@dimen/chat_text_size"
+        tools:hint="Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Suspendisse pharetra, sapien at luctus semper, justo dui accumsan lorem, nec pretium dui eros pharetra leo." />
+
+</RelativeLayout>
