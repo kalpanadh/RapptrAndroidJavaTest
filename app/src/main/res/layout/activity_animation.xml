@@ -11,9 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="23dp"
-        android:layout_marginRight="23dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginLeft="@dimen/margin_23"
+        android:layout_marginRight="@dimen/margin_23"
+        android:layout_marginTop="@dimen/margin_100"
         android:src="@drawable/gpc_logo"
         android:contentDescription="@string/logo" />
 
