@@ -176,7 +176,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int which) {
                 if (code.equalsIgnoreCase("SUCCESS")) {
                     startActivity(new Intent(LoginActivity.this, MainActivity.class));
-
+                    finish();
                 }
             }
         });
